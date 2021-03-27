@@ -1,0 +1,216 @@
+@media only screen and (min-width: 601px) {
+    .ForecastPane{
+        font-family: Helvetica, sans-serif;
+        font-size: 14pt;
+        background-color: rgba(238, 238, 240, 35%);
+        border-radius: 5pt;
+        grid-column: 1 / 4;
+        grid-row: 6 / 7;
+        width: 70%;
+        justify-self: center;
+        display: grid;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        grid-template-columns: repeat(24,1fr);
+        grid-template-rows: repeat(1, 1fr);
+        height:fit-content;
+        z-index:10;
+    }
+
+    .Line{
+        width: 80%;
+        background-color: rgba(209, 209, 211, 100);
+    }
+
+    .item{
+        grid-column: 1/2;
+    }
+
+    .HourColumn{
+        scroll-snap-align: start;
+    }
+
+    .Drop{
+        margin-right: 5px;
+    }
+
+    .GPSButton{
+        background-color: rgba(255,255,255,68%);
+        box-shadow: 2px 3px 8px rgba(0, 0, 0, 16%);
+        width: 150%;
+        margin: 5px;
+        border-radius: 10pt;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14pt;
+        min-height: 50px;
+        border: none;
+        animation-name: OnActive;
+        animation-duration: 1s;
+        animation-timing-function: cubic-bezier(0.00075, 0.2, 0.05, 1);
+        outline: none;
+        background-color: rgba(118, 118, 128, 0.007);
+        box-shadow: 2px 3px 8px rgba(0, 0, 0, 16%);
+        border-radius: 50%;
+        position: fixed;
+        right:1%;
+        bottom: 1%;
+        height: 90px;
+        width: 90px;
+        background-image: url(../../../Images/gps.svg);
+        background-size: 50%;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .GPSButton:hover{
+        outline: none;
+        animation-name: OnHover;
+        animation-duration: 0.2s;
+        animation-fill-mode: forwards;
+        animation-timing-function: cubic-bezier(0, 0.95, 0.85, 1);;
+        background-color: rgba(255,255,255,68%);
+        background-color: rgba(118, 118, 128, 0.007);
+        box-shadow: 2px 3px 8px rgba(0, 0, 0, 16%);
+    }
+
+    @keyframes OnHover{
+
+        from{
+            background-color: rgba(118, 118, 128, 0%);
+        }
+        to{
+            width: 105px;
+            height: 105px;
+            background-color: rgba(118, 118, 128, 0.007);
+        }
+    }
+
+    @keyframes OnActive{
+
+        from{
+            width: 105px;
+            height: 105px;
+            background-color: rgba(118, 118, 128, 0%);
+        }
+        to{
+            background-color: rgba(255,255,255,68%);
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+
+    .ForecastPane{
+        font-family: Helvetica, sans-serif;
+        font-size: 8pt;
+        background-color: rgba(238, 238, 240, 35%);
+        border-radius: 5pt;
+        grid-column: 1 / 4;
+        grid-row: 6 / 7;
+        width: 70%;
+        height:fit-content;
+        justify-self: center;
+        display: grid;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        grid-template-columns: repeat(24,1fr);
+        grid-template-rows: repeat(1, 1fr);
+        z-index: 10;
+    }
+
+    .columnBox{
+        line-height: 0pt;
+    }
+    
+    .icons{
+        transform: scale(0.5);
+    }
+
+    .Line{
+        width: 40%;
+        background-color: rgba(209, 209, 211, 100);
+    }
+    
+    .item{
+        grid-column: 1/2;
+    }
+    
+    .HourColumn{
+        line-height: 0pt;
+        scroll-snap-align: start;
+    }
+    
+    .Drop{
+        margin-right: 5px;
+    }
+    
+    .GPSButton{
+        background-color: rgba(255,255,255,68%);
+        box-shadow: 2px 3px 8px rgba(0, 0, 0, 16%);
+        width: 150%;
+        margin: 5px;
+        border-radius: 10pt;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14pt;
+        min-height: 50px;
+        border: none;
+        animation-name: OnActive;
+        animation-duration: 1s;
+        animation-timing-function: cubic-bezier(0.00075, 0.2, 0.05, 1);
+        outline: none;
+        background-color: rgba(118, 118, 128, 0.007);
+        box-shadow: 2px 3px 8px rgba(0, 0, 0, 16%);
+        border-radius: 50%;
+        position: fixed;
+        right:1%;
+        bottom: 1%;
+        height: 90px;
+        width: 90px;
+        background-image: url(../../../Images/gps.svg);
+        background-size: 50%;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }
+    
+    .GPSButton:hover{
+        outline: none;
+        animation-name: OnHover;
+        animation-duration: 0.2s;
+        animation-fill-mode: forwards;
+        animation-timing-function: cubic-bezier(0, 0.95, 0.85, 1);;
+        background-color: rgba(255,255,255,68%);
+        background-color: rgba(118, 118, 128, 0.007);
+        box-shadow: 2px 3px 8px rgba(0, 0, 0, 16%);
+    }
+    
+    @keyframes OnHover{
+    
+        from{
+            background-color: rgba(118, 118, 128, 0%);
+        }
+        to{
+            width: 105px;
+            height: 105px;
+            background-color: rgba(118, 118, 128, 0.007);
+        }
+    }
+    
+    @keyframes OnActive{
+    
+        from{
+            width: 105px;
+            height: 105px;
+            background-color: rgba(118, 118, 128, 0%);
+        }
+        to{
+            background-color: rgba(255,255,255,68%);
+        }
+    }
+}    

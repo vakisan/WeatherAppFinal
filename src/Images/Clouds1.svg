@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="673.441" height="504.685" viewBox="0 0 673.441 504.685">
+  <defs>
+    <filter id="clouds" x="0" y="0" width="673.441" height="504.685" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#clouds)">
+    <path id="clouds-2" data-name="clouds" d="M179.743,277.551q-3.785,0-7.476-.369-3.926.369-7.953.369H85.763C38.51,277.711.074,239.169-.086,191.464s38.018-86.508,85.272-86.669C92.207,45.712,141.391.953,200.327.013s109.5,42.228,118.361,101.058a90.688,90.688,0,0,1,110.986,31.553,92.734,92.734,0,0,1-8.346,116.1,75.339,75.339,0,0,1-59.239,28.828Z" transform="translate(113.65 113.57)" fill="#e0dfdf"/>
+  </g>
+</svg>

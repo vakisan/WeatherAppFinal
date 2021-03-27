@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f0fdff"/>
+      <stop offset="1" stop-color="#05a8ff"/>
+    </linearGradient>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="25" height="25"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" clip-path="url(#clip-Custom_Size_1)">
+    <path id="Path_1059" data-name="Path 1059" d="M5.782,0c.9,0,1.314.273,2.148,1.631,1.858,3.019,3.636,8.89,3.636,11.185A5.783,5.783,0,1,1,0,12.817C0,10.65,1.631,5.295,3.456,1.941,4.227.518,4.751,0,5.782,0Z" transform="translate(6.555 5.814) rotate(-1)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

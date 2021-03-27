@@ -1,0 +1,33 @@
+@media only screen and (min-width: 601px) {
+    .NavigationBar{
+        z-index: 10;
+        grid-column: 1 / 4;
+        grid-row: 3 / 4 ;
+        display: inline-flex;
+        justify-content: space-around;
+        background-color: rgba(118, 118, 128, 12%);
+        border-radius: 10pt;
+        height: 60px;
+        width: 70%;
+        justify-self: center;
+        z-index: 10;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .NavigationBar{
+        z-index: 10;
+        z-index: 10;
+        grid-column: 1 / 4;
+        grid-row: 3 / 4 ;
+        display: inline-flex;
+        justify-content: space-around;
+        background-color: rgba(118, 118, 128, 12%);
+        border-radius: 10pt;
+        height: 40px;
+        width: 70%;
+        justify-self: center;
+    }
+
+}

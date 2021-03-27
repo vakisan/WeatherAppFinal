@@ -1,0 +1,140 @@
+.NavigationElement{
+    outline: none;
+    background-color: rgba(118, 118, 128, 0);
+    width: 100%;
+    margin: 5px;
+    border-radius: 10pt;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    min-height: 50px;
+    box-shadow: none;
+    border: none;
+}
+
+.NavigationElement:hover{
+    outline: none;
+    animation-name: OnHover;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.00075, 0.2, 0.05, 1);
+    background-color: rgba(255,255,255,68%);
+    background-color: rgba(118, 118, 128, 0.007);
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 16%);
+}
+
+.NavigationElementActive{
+    outline: none;
+    background-color: rgba(255,255,255,68%);
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 16%);
+    width: 150%;
+    margin: 5px;
+    border-radius: 10pt;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    min-height: 50px;
+    border: none;
+    animation-name: OnActive;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.00075, 0.2, 0.05, 1);
+}
+
+@keyframes OnHover{
+
+    from{
+        width: 120%;
+        background-color: rgba(118, 118, 128, 0%);
+    }
+    to{
+        background-color: rgba(118, 118, 128, 0.007);
+    }
+}
+
+@keyframes OnActive{
+
+    from{
+        width: 100%;
+        background-color: rgba(118, 118, 128, 0%);
+    }
+    to{
+        width: 150%;
+        background-color: rgba(255,255,255,68%);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .NavigationElement{
+        outline: none;
+        background-color: rgba(118, 118, 128, 0);
+        width: 100%;
+        border-radius: 6pt;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        min-height: 30px;
+        box-shadow: none;
+        border: none;
+    }
+    
+    .NavigationElement:hover{
+        outline: none;
+        animation-name: OnHover;
+        animation-duration: 1s;
+        animation-timing-function: cubic-bezier(0.00075, 0.2, 0.05, 1);
+        background-color: rgba(255,255,255,68%);
+        background-color: rgba(118, 118, 128, 0.007);
+        box-shadow: 2px 3px 8px rgba(0, 0, 0, 16%);
+    }
+    
+    .NavigationElementActive{
+        outline: none;
+        background-color: rgba(255,255,255,68%);
+        box-shadow: 2px 3px 8px rgba(0, 0, 0, 16%);
+        width: 150%;
+        border-radius: 6pt;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        min-height: 30px;
+        border: none;
+        animation-name: OnActive;
+        animation-duration: 1s;
+        animation-timing-function: cubic-bezier(0.00075, 0.2, 0.05, 1);
+    }
+    
+    @keyframes OnHover{
+    
+        from{
+            width: 120%;
+            background-color: rgba(118, 118, 128, 0%);
+        }
+        to{
+            background-color: rgba(118, 118, 128, 0.007);
+        }
+    }
+    
+    @keyframes OnActive{
+    
+        from{
+            width: 100%;
+            background-color: rgba(118, 118, 128, 0%);
+        }
+        to{
+            width: 150%;
+            background-color: rgba(255,255,255,68%);
+        }
+    }
+}

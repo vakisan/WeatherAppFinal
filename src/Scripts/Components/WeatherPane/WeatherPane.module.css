@@ -1,0 +1,111 @@
+@media only screen and (min-width: 601px) {
+    .WeatherPane{
+        background-color: transparent;
+        border-radius: 5pt;
+        grid-column: 1 / 4;
+        grid-row: 4 / 5 ;
+        display: inline;
+        z-index: 10;
+    }
+
+    .WeatherInfo{
+        display: inline-flex;
+        align-items: center;
+        line-height: 0pt;
+        left: 0;
+        right: 0;
+    }
+
+    .Stats{
+        margin-top: -10%;
+        margin-left: -15%;
+        line-height: 0pt;
+    }
+
+    .Temperature{
+        display: inline-flex;
+        font-size: 75pt;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(60, 60, 67, 60%);
+        letter-spacing: -7pt;
+    }
+
+    .Degree{
+        margin-top:-13%;
+        font-size: 20pt;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(60, 60, 67, 60%);
+        letter-spacing: 0pt
+    }
+
+    .Description{
+        margin-top: -30pt;
+        font-size: 25pt;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(60, 60, 67, 85%);
+        font-weight: 800;
+        letter-spacing: -2pt;
+    }
+
+    .Image{
+        margin-top: -5%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .WeatherPane{
+        background-color: transparent;
+        border-radius: 5pt;
+        grid-column: 1 / 4;
+        grid-row: 4 / 5 ;
+        display: inline;
+        z-index: 10;
+    }
+    
+    .WeatherInfo{
+        display: inline-flex;
+        align-items: center;
+        line-height: 0pt;
+        left: 0;
+        right: 0;
+    }
+    
+    .Stats{
+        margin-top: -10%;
+        margin-left: -15%;
+        line-height: 0pt;
+    }
+    
+    .Temperature{
+        display: inline-flex;
+        font-size: 20pt;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(60, 60, 67, 60%);
+        letter-spacing: 1pt;
+    }
+    
+    .Degree{
+        margin-top:-13%;
+        font-size: 10pt;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(60, 60, 67, 60%);
+        letter-spacing: 0pt
+    }
+    
+    .Description{
+        margin-top: 1pt;
+        font-size: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(60, 60, 67, 85%);
+        font-weight: 800;
+    }
+    
+    .Image{
+        margin-top: -10%;
+        width: 70%;
+        transform: scale(0.75);
+    }
+
+}

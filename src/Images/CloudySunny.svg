@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="350" viewBox="0 0 400 350">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.915" y1="0.169" x2="0.098" y2="0.842" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7d5dff"/>
+      <stop offset="1" stop-color="#29deff"/>
+    </linearGradient>
+    <filter id="Path_1" x="-13.289" y="-50.5" width="426.579" height="420.796" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="33.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.881" y1="0.863" x2="0.24" y2="0.176" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#facd0b"/>
+      <stop offset="1" stop-color="#ffb7a0"/>
+    </linearGradient>
+    <filter id="Subtraction_2" x="175.132" y="74.598" width="104.671" height="104.67" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#ffddbc"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.184" y1="0.127" x2="0.839" y2="0.848" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffdb45"/>
+      <stop offset="1" stop-color="#ffa68b"/>
+    </linearGradient>
+    <filter id="Ellipse_39" x="177.183" y="77.303" width="106.502" height="106.502" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood flood-color="#ffddbc"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="0.184" y1="0.127" x2="0.839" y2="0.848" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffe05d"/>
+      <stop offset="1" stop-color="#ffbeaa"/>
+    </linearGradient>
+    <filter id="Subtraction_1" x="183.039" y="83.161" width="100.646" height="100.644" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-4"/>
+      <feFlood flood-color="#ffddbc"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+    <filter id="clouds" x="54.922" y="47.026" width="258.449" height="205.333" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-5"/>
+      <feFlood flood-color="#fff" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="400" height="350"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" clip-path="url(#clip-Custom_Size_1)">
+    <g id="Group_27" data-name="Group 27" transform="translate(0 30)">
+      <g transform="matrix(1, 0, 0, 1, 0, -30)" filter="url(#Path_1)">
+        <path id="Path_1-2" data-name="Path 1" d="M112.789,0c62.292,0,112.789,49.2,112.789,109.9s-50.5,109.9-112.789,109.9S0,170.593,0,109.9,50.5,0,112.789,0Z" transform="translate(87.21 30)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Group_1" data-name="Group 1" transform="translate(114.922 43.725)">
+        <g id="Group_25" data-name="Group 25" transform="translate(68.683 0)">
+          <g id="sun" transform="translate(0)">
+            <g transform="matrix(1, 0, 0, 1, -183.61, -73.72)" filter="url(#Subtraction_2)">
+              <path id="Subtraction_2-2" data-name="Subtraction 2" d="M17.395,40.644a23.062,23.062,0,0,1-9.7-2.112A23.317,23.317,0,0,1,0,32.821a23.265,23.265,0,0,0,36.854-8.343A23.228,23.228,0,0,0,32.825,0a23.323,23.323,0,0,1,5.709,7.7A23.276,23.276,0,0,1,26.445,38.817,23.105,23.105,0,0,1,17.395,40.644Z" transform="matrix(-0.99, -0.1, 0.1, -0.99, 245.55, 139.27)" fill="url(#linear-gradient-2)"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -183.61, -73.72)" filter="url(#Ellipse_39)">
+              <circle id="Ellipse_39-2" data-name="Ellipse 39" cx="23.251" cy="23.251" r="23.251" transform="translate(207.18 97.3)" fill="url(#linear-gradient-3)"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -183.61, -73.72)" filter="url(#Subtraction_1)">
+              <path id="Subtraction_1-2" data-name="Subtraction 1" d="M17.395,40.644a23.062,23.062,0,0,1-9.7-2.112A23.317,23.317,0,0,1,0,32.821a23.265,23.265,0,0,0,36.854-8.343A23.228,23.228,0,0,0,32.825,0a23.323,23.323,0,0,1,5.709,7.7A23.276,23.276,0,0,1,26.445,38.817,23.105,23.105,0,0,1,17.395,40.644Z" transform="translate(213.04 103.16)" fill="url(#linear-gradient-4)"/>
+            </g>
+            <rect id="Rectangle_3" data-name="Rectangle 3" width="10.479" height="6.55" rx="3.275" transform="translate(0 43.882)" fill="#ffdc4b"/>
+            <rect id="Rectangle_4" data-name="Rectangle 4" width="10.479" height="6.55" rx="3.275" transform="translate(50.431) rotate(90)" fill="#ffdc4b"/>
+            <rect id="Rectangle_5" data-name="Rectangle 5" width="10.479" height="6.55" rx="3.275" transform="translate(83.179 43.882)" fill="#ffdc4b"/>
+            <rect id="Rectangle_6" data-name="Rectangle 6" width="10.479" height="6.55" rx="3.275" transform="translate(15.481 12.159) rotate(45)" fill="#ffdc4b"/>
+            <rect id="Rectangle_7" data-name="Rectangle 7" width="10.479" height="6.55" rx="3.275" transform="translate(50.431 83.179) rotate(90)" fill="#ffdc4b"/>
+            <rect id="Rectangle_8" data-name="Rectangle 8" width="10.479" height="6.55" rx="3.275" transform="translate(82.809 16.79) rotate(135)" fill="#ffdc4b"/>
+            <rect id="Rectangle_9" data-name="Rectangle 9" width="9.824" height="6.55" rx="3.275" transform="translate(74.665 70.688) rotate(45)" fill="#ffdc4b"/>
+            <rect id="Rectangle_10" data-name="Rectangle 10" width="10.479" height="6.55" rx="3.275" transform="translate(24.088 74.857) rotate(135)" fill="#ffdc4b"/>
+          </g>
+          <circle id="Ellipse_44" data-name="Ellipse 44" cx="1.637" cy="1.637" r="1.637" transform="translate(32.093 38.642)" opacity="0.478" fill="url(#linear-gradient-5)"/>
+          <circle id="Ellipse_45" data-name="Ellipse 45" cx="3.275" cy="3.275" r="3.275" transform="translate(47.157 32.093)" opacity="0.31" fill="url(#linear-gradient-5)"/>
+          <circle id="Ellipse_46" data-name="Ellipse 46" cx="2.62" cy="2.62" r="2.62" transform="translate(37.987 53.051)" opacity="0.261" fill="url(#linear-gradient-5)"/>
+        </g>
+        <g id="Group_26" data-name="Group 26" transform="translate(0 33.301)">
+          <g transform="matrix(1, 0, 0, 1, -114.92, -107.03)" filter="url(#clouds)">
+            <path id="clouds-2" data-name="clouds" d="M55.728,85.334q-1.174,0-2.321-.113-1.218.112-2.468.113H26.558a26.558,26.558,0,0,1-.179-53.116,36.576,36.576,0,0,1,72.477-1.14,28.3,28.3,0,0,1,31.857,45.4,23.466,23.466,0,0,1-18.386,8.857Z" transform="translate(114.92 107.03)" fill="url(#linear-gradient-8)"/>
+          </g>
+          <path id="Subtraction_3" data-name="Subtraction 3" d="M63.258,85.334H58.9c.773,0,1.563-.041,2.346-.113.667.065,1.345.1,2.015.111Zm-29.195,0H26.558a26.558,26.558,0,0,1-.179-53.115A36.538,36.538,0,0,1,62.694,0a37.142,37.142,0,0,1,3.918.207,36.553,36.553,0,0,0-32.4,32.011,26.558,26.558,0,0,0-.152,53.113Zm72.629-54.256h0c-.1-.7-.231-1.4-.377-2.085a28.662,28.662,0,0,1,7.752.012,28.119,28.119,0,0,0-7.374,2.074Z" transform="translate(0 0)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
